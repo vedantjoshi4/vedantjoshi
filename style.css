@@ -1,0 +1,19 @@
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+  }
+  
+  .upload {
+    text-align: center;
+    padding: 2em;
+    background: var(--bg-accent);
+  }
+  
+  #commentsContainer {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }

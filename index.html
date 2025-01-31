@@ -1,0 +1,27 @@
+<!-- Add this after the portfolio section -->
+
+<!-- Contact Form -->
+<section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+  <!-- Image Upload Section (Only for you) -->
+  <section class="upload" id="uploadSection">
+    <h2>Upload New Photo</h2>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button onclick="uploadImage()">Upload</button>
+  </section>
+  
+  <!-- Comments Section -->
+  <section class="comments">
+    <h2>Comments</h2>
+    <div id="commentsContainer"></div>
+    <input type="text" id="commentInput" placeholder="Add a comment...">
+    <button onclick="postComment()">Post</button>
+  </section>
